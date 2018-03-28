@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Angular Routes</title>
+  <script src="vendors/angular.min.js"></script>
+  <script src="vendors/angular-route.js"></script>
+  <script src="scripts/client.js"></script>
+  <script src="scripts/controllers/random.controller.js"></script>
+  <script src="scripts/controllers/search.controller.js"></script>
+
+</head>
+<body ng-app="gifApp">
+  <div><h1>Gif App</h1>
+  </div>
+
+  <div ng-include=" '/views/templates/nav.html' "></div>
+    <main ng-view>
+
+    </main>
+  
+</body>
+</html>

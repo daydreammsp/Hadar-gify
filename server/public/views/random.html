@@ -1,0 +1,15 @@
+<div>
+        
+                <button ng-click="vm.getGif()">get gif</button>
+    <button ng-click="vm.addGif(vm.gifArray)">save gif</button>
+                
+                <strong>Get Random Image</strong><button ng-click="vm.searchGifRandom()">submit</button><br>
+                  
+                <img ng-src="{{vm.gifArray.images.original.url}}">
+                  
+                </div>
+                <div ng-repeat="gif in vm.returnArray">
+                  {{gif.url}}
+                  <img ng-src="{{gif.url}}">
+                </div>
+</div>

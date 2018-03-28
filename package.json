@@ -1,0 +1,28 @@
+{
+  "name": "angular-routing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimeAcademy/fomalhaut-angular-routing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrimeAcademy/fomalhaut-angular-routing/issues"
+  },
+  "homepage": "https://github.com/PrimeAcademy/fomalhaut-angular-routing#readme",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-route": "^1.6.9",
+    "angular-router": "0.0.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12"
+  }
+}
