@@ -4,10 +4,10 @@
                 <input type="text" placeholder="search" ng-model="vm.gif">
                 <button ng-click="vm.searchGif(vm.gif)">submit</button>
                 
+              
                 
-                
-                <div ng-repeat="gifs in vm.gifArray">
-                  <img ng-src="{{gifs.images.original.url}}">
+                <div ng-repeat="gif in vm.gifArray.list">
+                  <img ng-src="{{gif.images.original.url}}">
                   
                
             </div>

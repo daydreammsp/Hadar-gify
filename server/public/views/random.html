@@ -5,11 +5,11 @@
                 
                 <strong>Get Random Image</strong><button ng-click="vm.searchGifRandom()">submit</button><br>
                   
-                <img ng-src="{{vm.gifArray.images.original.url}}">
+                <img ng-src="{{vm.gifArray.list.images.original.url}}">
                   
                 </div>
-                <div ng-repeat="gif in vm.returnArray">
+                <!-- <div ng-repeat="gif in vm.gifArray.list">
                   {{gif.url}}
                   <img ng-src="{{gif.url}}">
-                </div>
+                </div> -->
 </div>
